@@ -3,6 +3,8 @@
 } */
 
 .container{
+  background-image: url("/assets/SVGs/main-container-mobile2.svg");
+  background-repeat: no-repeat;
   display: grid;
   gap: 5px;
   height: 100vh;
