@@ -2,7 +2,7 @@ import {navBarObjects} from './objects.js'
 
 function NavigationBar(){
     return (
-        <div className='nav-buttons'>
+        <div className='nav-buttons-container'>
             {navBarObjects.map((item) => {
                 return (
                     <button className='nav-button' key={item.objectId}>
