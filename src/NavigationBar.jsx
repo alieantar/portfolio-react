@@ -6,8 +6,7 @@ function NavigationBar(){
             {navBarObjects.map((item) => {
                 return (
                     <button className='nav-button' key={item.objectId}>
-                    <img src={item.image_url} className='button-img'>
-                    </img>
+                        {item.title}
                     </button>
                 );
             })}
