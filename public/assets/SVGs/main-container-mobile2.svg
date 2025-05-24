@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="main-container" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500.95 751.1">
+<svg id="main-container" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500.63 2901.29">
   <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
   <defs>
-    <filter id="drop-shadow-1" x="-5.5" y="2.23" width="530" height="762" filterUnits="userSpaceOnUse">
+    <filter id="drop-shadow-1" x="-5.5" y="3.23" width="1530" height="2922" filterUnits="userSpaceOnUse">
       <feOffset dx="7" dy="7"/>
       <feGaussianBlur result="blur" stdDeviation="5"/>
       <feFlood flood-color="#000" flood-opacity=".9"/>
       <feComposite in2="blur" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <linearGradient id="linear-gradient" x1="96.5" y1="14.98" x2="297.78" y2="14.98" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="363.37" y1="16.88" x2="1145.88" y2="16.88" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0a0a55"/>
       <stop offset=".33" stop-color="#102cbb"/>
       <stop offset=".58" stop-color="#2d6eb7"/>
       <stop offset=".77" stop-color="#2599cd"/>
       <stop offset=".88" stop-color="#4775bc"/>
     </linearGradient>
-    <filter id="drop-shadow-2" x="114.5" y="2.23" width="291" height="39" filterUnits="userSpaceOnUse">
+    <filter id="drop-shadow-2" x="354.5" y="2.23" width="814" height="62" filterUnits="userSpaceOnUse">
       <feOffset dx="7" dy="7"/>
       <feGaussianBlur result="blur1" stdDeviation="5"/>
       <feFlood flood-color="#000" flood-opacity=".9"/>
@@ -25,13 +25,13 @@
     </filter>
   </defs>
   <g id="outer">
-    <path d="M473.98,11.58h-80.9c-8.89,4.48-17.78,8.96-26.67,13.44-37.85.07-75.71.14-113.56.22-37.85-.07-75.71-.14-113.56-.22-8.89-4.48-17.78-8.96-26.67-13.44H31.73L4.76,34.99l-.67,692.05c9.59,4.7,19.18,9.39,28.76,14.09,60.42,0,177.73-.26,177.73-.26l17.73-19.36h47.82l17.15,19.62h178.22l28.76-14.09.67-692.05-26.97-23.41Z" fill="none" filter="url(#drop-shadow-1)" stroke="#06a2cc" stroke-miterlimit="10" stroke-width="2"/>
-    <polygon points="383.17 11.12 123.37 11.58 140.15 18.64 363.67 18.83 383.17 11.12" fill="url(#linear-gradient)" filter="url(#drop-shadow-2)"/>
+    <path d="M1419.41,12.92h-243.67c-26.77,17.73-53.55,35.47-80.32,53.2-114.01.29-228.03.57-342.04.86-114.01-.29-228.03-.57-342.04-.86-26.77-17.73-53.55-35.47-80.32-53.2H87.34L6.12,105.6l-2.03,2739.92c28.88,18.59,57.76,37.18,86.64,55.78,182,0,535.34-1.01,535.34-1.01l53.4-76.66h144.02l51.67,77.67h536.81l86.64-55.78,2.03-2739.92-81.22-92.67Z" fill="none" filter="url(#drop-shadow-1)" stroke="#06a2cc" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon points="1145.88 11.12 363.37 12.92 413.91 40.88 1087.16 41.62 1145.88 11.12" fill="url(#linear-gradient)" filter="url(#drop-shadow-2)"/>
   </g>
   <g id="inner">
-    <polyline points="216.03 721.47 225.17 715.65 277.76 715.65 287.26 721.47" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
-    <polygon points="216.73 721.47 190.26 721.47 174.98 738.16 204.84 738.16 220.52 721.47 216.73 721.47" fill="#74a7d1"/>
-    <polygon points="291.09 721.47 313.72 721.47 329 738.16 299.14 738.16 283.46 721.47 291.09 721.47" fill="#74a7d1"/>
-    <polyline points="184.5 727.76 180.02 727.72 40.45 728.33 17.23 716.63 17.9 33.36 33.93 19.7 108.99 19.7 138.65 35.52 244.82 35.52 258.2 35.52 365.37 35.52 395.03 19.7 470.09 19.7 486.12 33.36 485.44 716.63 462.22 728.33 329 727.74 319.56 727.84" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
+    <polyline points="642.46 2823.48 669.98 2800.45 828.39 2800.45 857 2823.48" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
+    <polygon points="644.56 2823.48 564.85 2823.48 518.82 2889.56 608.77 2889.56 656 2823.48 644.56 2823.48" fill="#74a7d1"/>
+    <polygon points="868.53 2823.48 936.72 2823.48 982.74 2889.56 892.79 2889.56 845.56 2823.48 868.53 2823.48" fill="#74a7d1"/>
+    <polyline points="547.5 2848.38 534.01 2848.22 113.6 2850.65 43.66 2804.31 45.69 99.15 93.98 45.09 320.05 45.09 409.39 107.73 729.17 107.73 769.48 107.73 1092.27 107.73 1181.62 45.09 1407.69 45.09 1455.97 99.15 1453.94 2804.31 1384 2850.65 982.74 2848.33 954.29 2848.71" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
   </g>
 </svg>
