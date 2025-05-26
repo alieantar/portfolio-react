@@ -6,7 +6,6 @@
   --line-height-base: 1.6;
   --font-weight-normal: 400;
   --background-color: #0f2354;
-  --background-image: url("/assets/SVGs/main-container-mobile2.svg");
 
   /* Colors */
   --color-text: white;
@@ -27,8 +26,4 @@ body {
   font-weight: var(--font-weight-normal);
   background-color: var(--background-color);
   color: var(--color-text);
-  /* background-image: var(--background-image); */
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: center;
 }

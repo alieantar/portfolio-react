@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="nav-buttons" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 131.88 50.3">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <clipPath id="clippath">
+      <polygon points="20.66 1.65 1.15 14.19 1.15 35.64 17.06 49.28 116.43 49.28 130.86 35.64 130.86 13.6 116.43 1.65 20.66 1.65" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="-123.22" cy="-125.48" fx="-123.22" fy="-125.48" r="1" gradientTransform="translate(19836.92 10659.71) scale(160.46 84.75)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0a55"/>
+      <stop offset=".31" stop-color="#0a0a55"/>
+      <stop offset=".58" stop-color="#2599cd"/>
+      <stop offset=".77" stop-color="#2797cc"/>
+      <stop offset=".92" stop-color="#4775bc"/>
+      <stop offset="1" stop-color="#4775bc"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clippath)">
+    <rect x="1.15" y="1.65" width="129.71" height="47.63" fill="url(#radial-gradient)" opacity=".53"/>
+  </g>
+  <polygon points="20.66 1.65 1.15 14.19 1.15 35.64 17.06 49.28 116.43 49.28 130.86 35.64 130.86 13.6 116.43 1.65 20.66 1.65" fill="none" opacity=".51" stroke="#2599cd" stroke-miterlimit="10" stroke-width="1.5"/>
+</svg>
