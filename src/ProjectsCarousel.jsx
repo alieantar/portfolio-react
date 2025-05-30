@@ -18,7 +18,10 @@ function ProjectsCarousel() {
             <div className="carousel-track" style={{transform: `translateX(-${currentIndex * 100}%)`}}>
                 {projects.map((item) => (
                     <div className="slide" key={item.objectId}>
-                        <h2>{item.title}</h2>
+                      <div className='project-card'>
+                        <h2 className='project-title'>{item.title}</h2>
+                        <img src="/assets/SVGs/mobile/general/AlieAntar_PassportPhoto.png" className='project-photo'></img>
+                      </div>
                     </div>
                 ))}
             </div>

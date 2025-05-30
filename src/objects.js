@@ -28,16 +28,68 @@ const content = [
 const projects = [
     {
         objectId: 0,
-        title: "P1",
+        title: "Rocky the Rocket",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://www.youtube.com/watch?v=Lgq4coZnWM4"
     },
     {
         objectId: 1,
-        title: "P2",
+        title: "Obstacle Course VR",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://www.youtube.com/watch?v=jcTUmnbQvEk"
     },
-        {
+    {
         objectId: 2,
-        title: "P3",
-    }
+        title: "Jedi Trainer",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://www.youtube.com/watch?v=n6IBGKmVrFA"
+    },
+    {
+        objectId: 3,
+        title: "3D Fruit Ninja",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://www.youtube.com/watch?v=bPoDIvtrQOk"
+    },
+    {
+        objectId: 4,
+        title: "Breast Tumor Classifier",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://github.com/alieantar/BreastCancerClassification"
+    },
+    {
+        objectId: 5,
+        title: "Heart Disease Classifier",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://github.com/alieantar/HeartDiseaseClassifier"
+
+    },
+    {
+        objectId: 6,
+        title: "Image Edge Detection",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://drive.google.com/drive/folders/1cS3kjNdI2ZZb4urzlZAh4Ea2vXhddMk2"
+    },
+    {
+        objectId: 7,
+        title: "Image Segmentation",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://drive.google.com/drive/folders/1WpbxOqUUVHW7RAJ_Y6KUonRSMfbtx_tN"
+    },
+    {
+        objectId: 8,
+        title: "Blog",
+        description: "DESCRIBE ME",
+        imagePath: "DONT FORGET ME",
+        URL: "https://github.com/alieantar/blog"
+    },
 ]
 
 export {navBarObjects, content, projects};
