@@ -14,8 +14,6 @@ function ProjectsCarousel() {
 
   return (
     <div className="carousel">
-
-
         <div className="carousel-window">
             <div className="carousel-track" style={{transform: `translateX(-${currentIndex * 100}%)`}}>
                 {projects.map((item) => (
@@ -24,6 +22,12 @@ function ProjectsCarousel() {
                     </div>
                 ))}
             </div>
+          <button className="carousel-nav left" onClick={goBack}>
+                <img src='/assets/SVGs/mobile/general/nav-left.svg'></img>
+          </button>
+                    <button className="carousel-nav right" onClick={moveForward}>
+                <img src='/assets/SVGs/mobile/general/nav-right.svg'></img>
+          </button>
         </div>
     </div>
 
