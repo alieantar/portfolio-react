@@ -13,9 +13,18 @@ function ProjectsCarousel() {
   };
 
   return (
-    <div className='intro-message'>
-        <h1>Hi, I'm Alie! </h1>
-        <p>Please select one of the options shown above</p>
+    <div className="carousel">
+
+
+        <div className="carousel-window">
+            <div className="carousel-track" style={{transform: `translateX(-${currentIndex * 100}%)`}}>
+                {projects.map((item) => (
+                    <div className="slide" key={item.objectId}>
+                        <h2>{item.title}</h2>
+                    </div>
+                ))}
+            </div>
+        </div>
     </div>
 
   );

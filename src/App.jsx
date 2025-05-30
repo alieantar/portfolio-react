@@ -3,6 +3,7 @@ import './App.css'
 import NavigationBar from './NavigationBar.jsx'
 import Content from './Content.jsx'
 import ProjectsCarousel from './ProjectsCarousel.jsx'
+import IntroMessage from './IntroMessage.jsx'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       
       <div className='content-container'>
         {/* <Content/> */}
+        {/* <IntroMessage/> */}
         <ProjectsCarousel/>
         
       </div>

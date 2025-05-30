@@ -43,7 +43,7 @@
   font-family: inherit;
   font-size: clamp(0.8rem, 1.2vw, 2rem);
   color: inherit;
-  border-radius: 1vw;
+  border-radius: 2%;
   /* background-color: transparent; */
   /* background-image: url("/public/assets/SVGs/mobile/small/nav-button-small.svg"); */
   background-color: rgba(70, 130, 180, .2);
@@ -52,7 +52,7 @@
   border: none;
   cursor: pointer;
   height: clamp(5vh, 6vh, 15vh);
-  width: clamp(25vw, 55vw, 60vw);
+  width: 100%;
 }
 
 .nav-buttons-container{
@@ -85,10 +85,8 @@
   max-width: 60vw;
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
-
+  padding: 0.5rem 1rem;
   max-height: 50vh;
-  overflow-y: auto;
   
   display: flex;
   justify-content: center;
@@ -106,6 +104,49 @@
   font-size: clamp(0.3rem, 4vw, 1.5rem);
   /* left/right(-left, +right), up/down(-up, +down) blur color*/
   /* box-shadow: 0px -20px 15px rgba(0, 0, 0, 0.4); */
+}
+
+/* margin/padding: top, right, bottom, left */
+.carousel{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.carousel-window{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.carousel-track{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  background-color: rgba(70, 130, 180, 0.2);
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+
+.carousel-nav {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 1rem;
+  color: #007ddd;
 }
 
 
