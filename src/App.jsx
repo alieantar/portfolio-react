@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NavigationBar from './NavigationBar.jsx'
 import Content from './Content.jsx'
+import ProjectsCarousel from './ProjectsCarousel.jsx'
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
       <NavigationBar/>
       
       <div className='content-container'>
-        <Content/>
+        {/* <Content/> */}
+        <ProjectsCarousel/>
+        
       </div>
     </div>
   )
