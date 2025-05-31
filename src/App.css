@@ -106,6 +106,71 @@
   /* box-shadow: 0px -20px 15px rgba(0, 0, 0, 0.4); */
 }
 
+.projects-collection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-carousel{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.category-carousel-window{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.category-carousel-track{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.project-category{
+  flex: 0 0 100%;
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.category-carousel-nav img {
+  width: 0.6rem;
+  height: 0.6rem;
+  display: block;
+}
+.cat-left{
+  position: absolute;
+  right: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.cat-right{
+  position: absolute;
+  left: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
 /* margin/padding: top, right, bottom, left */
 .carousel{
   position: relative;
@@ -114,14 +179,12 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-
 }
 
 .carousel-window{
   overflow: hidden;
   width: 100%;
   height: 100%;
-  
 }
 
 .carousel-track{
@@ -149,10 +212,19 @@
   font-size: 3.5vw;
 }
 
+.image-container{
+  width: 100%;
+  height: 35vh;
+  overflow: hidden;
+  position: relative;
+}
+
 .project-photo{
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
+
 
 .carousel-nav img {
   width: 2rem;

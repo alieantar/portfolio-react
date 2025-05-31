@@ -19,8 +19,10 @@ function ProjectsCarousel() {
                 {projects.map((item) => (
                     <div className="slide" key={item.objectId}>
                       <div className='project-card'>
-                        <h2 className='project-title'>{item.title}</h2>
-                        <img src="/assets/SVGs/mobile/general/AlieAntar_PassportPhoto.png" className='project-photo'></img>
+                        <h2 className='project-title'>Hi</h2>
+                        <div className='image-container'>
+                          <img src="/assets/SVGs/mobile/general/AlieAntar_PassportPhoto.png" className='project-photo'></img>
+                        </div>
                       </div>
                     </div>
                 ))}
@@ -28,7 +30,7 @@ function ProjectsCarousel() {
           <button className="carousel-nav left" onClick={goBack}>
                 <img src='/assets/SVGs/mobile/general/nav-left.svg'></img>
           </button>
-                    <button className="carousel-nav right" onClick={moveForward}>
+          <button className="carousel-nav right" onClick={moveForward}>
                 <img src='/assets/SVGs/mobile/general/nav-right.svg'></img>
           </button>
         </div>
