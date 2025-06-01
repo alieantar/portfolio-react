@@ -1,11 +1,10 @@
-import {content} from './objects.js'
+import { navBarObjects } from './objects.js'
+import ProjectsCategoryNavigation from './ProjectsCategoryNavigation.jsx';
 
-function Content() {
+function Content(props) {
+    const section = navBarObjects[props.contentNavIndex];
     return (
-        <p className='about-me-text' key={content[0].objectId}>
-            {content[0].contentDisplay}
-        </p>
-
+        <ProjectsCategoryNavigation projects={navBarObjects[props.contentNavIndex].content}/>
     )
 }
 
