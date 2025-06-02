@@ -1,8 +1,9 @@
-function IntroMessage() {
+function IntroMessage(props) {
   return (
-    <div className='intro-message'>
-        <h1>Hi, I'm Alie! </h1>
-        <p>Please select one of the options shown above</p>
+    <div className="about-me-container">
+      <p className="about-me-text">
+        {props.aboutMeContent}
+      </p>
     </div>
   );
 }

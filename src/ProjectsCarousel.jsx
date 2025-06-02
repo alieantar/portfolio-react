@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-
 function ProjectsCarousel(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -19,8 +18,10 @@ function ProjectsCarousel(props) {
                 {props.projectsArray.map((item) => (
                     <div className="slide" key={item.objectId}>
                       <div className='project-card'>
-                        <h2 className='project-title'>{item.title}</h2>
-
+                        <a className='project-title' href={item.URL}>{item.title}</a>
+                        <div className="project-description-container">
+                          <p className='project-description'>{item.description}</p>
+                        </div>
                       </div>
                     </div>
                 ))}

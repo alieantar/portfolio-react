@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react'
 import './App.css'
 import NavigationBar from './NavigationBar.jsx'
@@ -9,14 +10,21 @@ import { navBarObjects } from './objects.js'
 
 
 function contentToRender(navOption){
-  if (navOption.objectId === 1){
-    const projectsContent = navOption.content;
-    // console.log(projectsContent); 
+  const content = navOption.content;
+  console.log(content);
+  if (navOption.objectId === 0){
     return (
-    <div className='projects-collection'>
-      <ProjectsCategoryNavigation projectsContent={ projectsContent }/>
-      {/* <ProjectsCarousel/> */}
-    </div>)
+      <React.Fragment>
+        <IntroMessage aboutMeContent= {content}/>
+      </React.Fragment>
+    )
+  }
+  else if (navOption.objectId === 1){
+    return (
+      <React.Fragment>
+        <ProjectsCategoryNavigation projectsContent={ content }/>
+      </React.Fragment>
+    )
   }
 }
 function App() {
@@ -24,7 +32,6 @@ function App() {
   const [selectedNavOption, setselectedNavOption] = useState({});
 
   const handleClick = (item) => {
-      // console.log(event.target.value);
     setselectedNavOption(item);
   };
 
@@ -34,7 +41,6 @@ function App() {
         <h1 className='heading'>
           Alie Antar
         </h1>
-        {/* <img className='heading-image' src='/assets/SVGs/heading.svg'></img> */}
       </div>
       <NavigationBar onClick={handleClick}/>
       
