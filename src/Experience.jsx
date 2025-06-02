@@ -1,8 +1,5 @@
-import React
- from "react";
+import React from "react";
 function Experience(props) {
-
-  console.log(props.experienceContentArray);
   return (
     <React.Fragment>
         <div className="experience-container">
@@ -19,5 +16,4 @@ function Experience(props) {
 
   );
 }
-
 export default Experience;

@@ -8,10 +8,13 @@ import ProjectsCategoryNavigation from './ProjectsCategoryNavigation.jsx'
 import IntroMessage from './IntroMessage.jsx'
 import { navBarObjects } from './objects.js'
 import Experience from './Experience.jsx'
+import Contact from './Contact.jsx'
 
 
 function contentToRender(navOption){
+  console.log(navOption);
   const content = navOption.content;
+  console.log(content);
   if (navOption === -1){
     return (
       <React.Fragment>
@@ -37,6 +40,13 @@ function contentToRender(navOption){
     return (
       <React.Fragment>
         <Experience experienceContentArray={ content }/>
+      </React.Fragment>
+    )
+  }
+    else if (navOption.objectId === 3){
+    return (
+      <React.Fragment>
+        <Contact contactObject={ navOption }/>
       </React.Fragment>
     )
   }

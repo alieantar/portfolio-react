@@ -124,7 +124,7 @@ const navBarObjects = [
     {
         objectId: 3,
         title: "Contact",
-        content: []
+        email: "alieantar@outlook.com",
     }
 ];
 
