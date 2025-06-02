@@ -101,7 +101,25 @@ const navBarObjects = [
     {
         objectId: 2,
         title: "Experience",
-        content: []
+        content: [
+            {
+                objectId: 0,
+                companyName: "Precise Systems",
+                title: "Computer Systems Analyst - Software Engineer",
+                duties: "Designed and implemented intuitive user interfaces in Unity using C#, enabling real-time instructor control in training simulations.\n\n"+
+                        "Built interactive, multimedia-rich tutorials to assist with air traffic controller training, incorporating speech recognition and 3D models.\n\n"+
+                        "Created a realistic Multi-Function Display (MFD) interface for jet simulations, plus GUIs for VR/AR system menus.\n\n"+
+                        "Collaborated with cross-functional teams on testing and debugging to ensure high performance and user satisfaction.\n"
+            },
+            {
+                objectId: 1,
+                companyName: "University of Central Florida - Physics Department",
+                title: "Teaching Assistant",
+                duties: "Managed logistics for quizzes and exams, ensuring smooth operations in high-stakes academic environments.\n\n"+
+                        "Assisted in grade management and collaborated with professors on grading standards and issue resolution.\n\n"+
+                        "Communicated clearly with students and faculty, demonstrating reliability and precision under tight deadlines.\n"
+            }
+        ]
     },
     {
         objectId: 3,

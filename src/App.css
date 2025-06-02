@@ -1,7 +1,9 @@
 /* #root {
 
 } */
-
+.non-mobile{
+  display: none;
+}
 .container{
   background-image: url("/assets/SVGs/mobile/general/main-container-mobile-general.svg");
   background-position: center top;
@@ -287,5 +289,36 @@
   }
 }
 
+.experience-container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 40vh;
+}
+
+.job h1 {
+  font-size: 0.8rem;
+}
+
+.job h2 {
+  font-size: 0.7rem
+}
+
+.job p{
+  font-size: 0.6rem;
+  white-space: pre-line;
+}
+@media (min-width: 445px){
+  .container{
+    display: none;
+  }
+  .non-mobile{
+    display: block;
+    height: 100vh;
+  }
+  .non-mobile-text{
+    padding: 10%;
+  }
+}
 
 

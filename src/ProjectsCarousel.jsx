@@ -18,7 +18,7 @@ function ProjectsCarousel(props) {
                 {props.projectsArray.map((item) => (
                     <div className="slide" key={item.objectId}>
                       <div className='project-card'>
-                        <a className='project-title' href={item.URL}>{item.title}</a>
+                        <a className='project-title' href={item.URL} target='_blank'>{item.title}</a>
                         <div className="project-description-container">
                           <p className='project-description'>{item.description}</p>
                         </div>
