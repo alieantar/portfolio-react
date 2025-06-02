@@ -96,7 +96,11 @@
 
 }
 
-
+@media (min-width: 445px){
+  .container{
+    display: none;
+  }
+}
 
 
 

@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import ProjectsCarousel from './ProjectsCarousel';
-import { playSound } from './playSound';
+// import { playSound } from './playSound';
 
 function ProjectsCategoryNavigation(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goBack = () => {
-    playSound();
+    // playSound();
     setCurrentIndex((prev) => (prev === 0 ? props.projectsContent.length - 1 : prev - 1));
   };
 
   const moveForward = () => {
-    playSound();
+    // playSound();
     setCurrentIndex((prev) => (prev === props.projectsContent.length - 1 ? 0 : prev + 1));
   };
   return (

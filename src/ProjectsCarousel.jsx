@@ -1,16 +1,20 @@
-import { useState } from 'react';
-import { playSound } from './playSound';
+import { useState, useEffect } from 'react';
+// import { playSound } from './playSound';
 
 function ProjectsCarousel(props) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [props.projectsArray]);
+  
   const goBack = () => {
-    playSound();
+    // playSound();
     setCurrentIndex((prev) => (prev === 0 ? props.projectsArray.length - 1 : prev - 1));
   };
 
   const moveForward = () => {
-    playSound();
+    // playSound();
     setCurrentIndex((prev) => (prev === props.projectsArray.length - 1 ? 0 : prev + 1));
   };
   return (

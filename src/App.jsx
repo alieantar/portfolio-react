@@ -57,8 +57,8 @@ function App() {
   const [selectedNavOption, setselectedNavOption] = useState(null);
 
   const handleClick = (item) => {
-    const audio = new Audio('/assets/sounds/nav.mp3');
-    audio.play();
+    // const audio = new Audio('/assets/sounds/nav.mp3');
+    // audio.play();
     setselectedNavOption(item);
   };
 
