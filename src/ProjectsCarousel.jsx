@@ -10,7 +10,6 @@ function ProjectsCarousel(props) {
   const moveForward = () => {
     setCurrentIndex((prev) => (prev === props.projectsArray.length - 1 ? 0 : prev + 1));
   };
-  console.log(props.projectsArray);
   return (
     <div className="carousel">
         <div className="carousel-window">
