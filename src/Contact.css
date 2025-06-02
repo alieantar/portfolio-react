@@ -1,0 +1,16 @@
+.contact-container{
+  width: 55vw;
+  height: 50vh;
+}
+.contact-container h1{
+  text-align: center;
+  font-size: 1.5rem;
+}
+.contact-container p{
+  text-align: center;
+  font-size: 0.9rem;
+}
+.contact-container h2{
+  text-align: center;
+  font-size: 1rem;
+}

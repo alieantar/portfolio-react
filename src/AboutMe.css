@@ -1,0 +1,9 @@
+.about-me-container{
+  height: 47vh;
+  overflow: auto;
+}
+
+.about-me-text{
+  font-size: 0.7rem;
+  text-align: center;
+}

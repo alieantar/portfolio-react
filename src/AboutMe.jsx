@@ -1,4 +1,4 @@
-function IntroMessage(props) {
+function AboutMe(props) {
   return (
     <div className="about-me-container">
       <p className="about-me-text">
@@ -8,4 +8,4 @@ function IntroMessage(props) {
   );
 }
 
-export default IntroMessage;
+export default AboutMe;

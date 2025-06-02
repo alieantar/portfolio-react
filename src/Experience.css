@@ -1,0 +1,19 @@
+.experience-container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 40vh;
+}
+
+.job h1 {
+  font-size: 0.8rem;
+}
+
+.job h2 {
+  font-size: 0.7rem
+}
+
+.job p{
+  font-size: 0.6rem;
+  white-space: pre-line;
+}
