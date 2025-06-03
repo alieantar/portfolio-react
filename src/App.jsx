@@ -11,6 +11,7 @@ import ProjectsCategoryNavigation from './ProjectsCategoryNavigation.jsx'
 import AboutMe from './AboutMe.jsx'
 import Experience from './Experience.jsx'
 import Contact from './Contact.jsx'
+import AboutMeGeneric from './AboutMeGeneric.jsx'
 
 
 function contentToRender(navOption){
@@ -18,7 +19,7 @@ function contentToRender(navOption){
   if (navOption === -1){
     return (
       <React.Fragment>
-        <AboutMe aboutMeContent= {"Hi, I'm Alie! Please click one of the buttons above to learn more about me :)"}/>
+        <AboutMeGeneric/>
       </React.Fragment>
     )
   }

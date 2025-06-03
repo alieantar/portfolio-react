@@ -17,3 +17,18 @@
   font-size: 0.6rem;
   white-space: pre-line;
 }
+
+@media (min-width: 768px){
+  .job h1 {
+    font-size: 1.5rem;
+  }
+
+  .job h2 {
+    font-size: 1.5rem
+  }
+
+  .job p{
+    font-size: 0.8rem;
+    white-space: pre-line;
+  }
+}

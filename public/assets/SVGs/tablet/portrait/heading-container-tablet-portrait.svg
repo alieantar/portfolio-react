@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="heading-container" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 738.93 181.78">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <radialGradient id="radial-gradient" cx="465.84" cy="21.62" fx="465.84" fy="21.62" r="636.5" gradientTransform="translate(-33.83 81.65) scale(.86 .59)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0a55"/>
+      <stop offset=".21" stop-color="#102cbb"/>
+      <stop offset=".37" stop-color="#2d6eb7"/>
+      <stop offset=".49" stop-color="#2599cd"/>
+      <stop offset=".68" stop-color="#4775bc"/>
+      <stop offset=".84" stop-color="#fff"/>
+      <stop offset=".95" stop-color="#e6e3f3"/>
+    </radialGradient>
+    <filter id="drop-shadow-1" x="132.5" y="20.42" width="487" height="162" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".9"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon points="560.97 160.35 597.02 136.13 596.52 51.36 559.97 28.49 177.91 28.49 141.36 51.36 140.86 136.13 176.91 160.35 560.97 160.35" fill="url(#radial-gradient)" filter="url(#drop-shadow-1)"/>
+  <line x1="117.3" y1="11.35" x2="182.99" y2="71.24" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <ellipse cx="111.61" cy="8.9" rx="6.04" ry="6.88" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="14.17" y1="8.9" x2="105.57" y2="8.9" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <ellipse cx="8.13" cy="8.9" rx="6.04" ry="6.88" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="621" y1="11.12" x2="555.3" y2="71.01" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <ellipse cx="626.68" cy="8.67" rx="6.04" ry="6.88" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="724.12" y1="8.67" x2="632.72" y2="8.67" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <ellipse cx="730.16" cy="8.67" rx="6.04" ry="6.88" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <polyline points="518.37 148.32 546.02 132.95 545.64 79.15" fill="none" opacity=".87" stroke="#e3f1ff" stroke-miterlimit="10"/>
+  <polyline points="224.51 64.64 196.47 79.15 196.09 132.95" fill="none" opacity=".87" stroke="#e3f1ff" stroke-miterlimit="10"/>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="main-container" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 840.15 1199.8">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <linearGradient id="linear-gradient" x1="203.42" y1="9.15" x2="637.15" y2="9.15" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0a55"/>
+      <stop offset=".33" stop-color="#102cbb"/>
+      <stop offset=".58" stop-color="#2d6eb7"/>
+      <stop offset=".77" stop-color="#2599cd"/>
+      <stop offset=".88" stop-color="#4775bc"/>
+    </linearGradient>
+  </defs>
+  <g id="outer">
+    <path d="M790.74,3.59h-135.4c-14.88,7.33-29.76,14.66-44.63,21.98-63.36.12-126.71.24-190.07.35-63.36-.12-126.71-.24-190.07-.35-14.88-7.33-29.76-14.66-44.63-21.98H50.54L5.41,41.89l-1.13,1132.21c16.05,7.68,32.1,15.37,48.14,23.05,101.13,0,297.48-.42,297.48-.42l29.67-31.68h80.03l28.71,32.1h298.3l48.14-23.05,1.13-1132.21-45.13-38.3Z" fill="none" stroke="#06a2cc" stroke-miterlimit="10" stroke-width="2"/>
+    <polygon points="637.15 2.85 203.42 3.59 231.43 15.15 604.6 15.45 637.15 2.85" fill="url(#linear-gradient)"/>
+  </g>
+  <g id="inner">
+    <polyline points="358.11 1165 373.37 1155.48 461.17 1155.48 477.03 1165" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
+    <polygon points="359.28 1165 315.09 1165 289.58 1192.3 339.44 1192.3 365.62 1165 359.28 1165" fill="#74a7d1"/>
+    <polygon points="483.42 1165 521.22 1165 546.73 1192.3 496.87 1192.3 470.69 1165 483.42 1165" fill="#74a7d1"/>
+    <polyline points="305.48 1175.29 298 1175.22 64.98 1176.22 26.21 1157.08 27.34 39.23 54.1 16.89 179.41 16.89 228.93 42.77 406.18 42.77 428.52 42.77 607.44 42.77 656.96 16.89 782.27 16.89 809.03 39.23 807.9 1157.08 769.14 1176.22 546.73 1175.26 530.95 1175.42" fill="none" stroke="#74a7d1" stroke-miterlimit="10"/>
+  </g>
+</svg>

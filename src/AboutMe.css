@@ -1,9 +1,21 @@
 .about-me-container{
-  height: 47vh;
+  height: 40vh;
   overflow: auto;
 }
 
 .about-me-text{
   font-size: 0.7rem;
   text-align: center;
+}
+
+.generic-text{
+  font-size: 1rem;
+  padding-top: 15vh;
+}
+
+@media (min-width: 768px){
+  .about-me-text{
+    font-size: 1rem;
+    padding-top: 5vh;
+  }
 }
