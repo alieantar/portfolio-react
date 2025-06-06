@@ -237,3 +237,12 @@
     padding-right: 5%;
   }
 }
+
+@media (min-width: 1280px){
+  .project-category{
+    font-size: 1.6rem;
+  }
+  .slide {
+    width: 15vw;
+  }
+}

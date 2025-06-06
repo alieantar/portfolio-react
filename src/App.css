@@ -164,6 +164,25 @@
   }
 }
 
+@media (min-width: 1280px){
+  .container{
+    background-image: url("/assets/SVGs/desktop/small/main-container-desktop-small.svg");
+    grid-template-rows: 0.3fr 0.1fr 1fr;
+  }
+  .heading-container{
+    background-image: url("/assets/SVGs/desktop/small/heading-container-desktop-small.svg");
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .nav-buttons-container{
+    max-width: 70vw;
+  }
+  .content-container{
+    max-width: 70vw;
+    max-height: 55vh;
+  }
+  
+}
 
 
 

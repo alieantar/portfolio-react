@@ -25,3 +25,9 @@
     font-size: 1rem;
   }
 }
+
+@media (min-width: 1280px){
+  .about-me-text{
+    font-size: 0.95rem;
+  }
+}
