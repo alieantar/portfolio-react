@@ -18,7 +18,7 @@
   white-space: pre-line;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (orientation: portrait){
   .job h1 {
     font-size: 1.5rem;
   }
@@ -29,6 +29,21 @@
 
   .job p{
     font-size: 0.8rem;
+    white-space: pre-line;
+  }
+}
+
+@media (min-width: 768px) and (orientation: landscape){
+  .job h1 {
+    font-size: 1.3rem;
+  }
+
+  .job h2 {
+    font-size: 1.2rem
+  }
+
+  .job p{
+    font-size: 0.9rem;
     white-space: pre-line;
   }
 }

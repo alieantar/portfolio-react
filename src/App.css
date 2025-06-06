@@ -28,7 +28,6 @@
   grid-column: span 2;
   margin-top: clamp(4%, 4vh, 8%);
   min-height: clamp(3rem, 11vh, 5rem);
-
 }
 
 .heading{
@@ -119,7 +118,7 @@
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (orientation: portrait){
   .container{
     background-image: url("/assets/SVGs/tablet/portrait/main-container-tablet-portrait.svg");
   }
@@ -143,7 +142,27 @@
   }
 }
 
-
+@media (min-width: 768px) and (orientation: landscape){
+  .container{
+    background-image: url("/assets/SVGs/tablet/landscape/main-container-tablet-landscape.svg");
+    grid-template-rows: 0.4fr 0.1fr 1fr;
+  }
+  .heading-container{
+    background-image: url("/assets/SVGs/tablet/landscape/heading-container-tablet-landscape.svg");
+    margin-top: 2%
+  }
+  .nav-buttons-container{
+    flex-direction: row;
+  }
+  .nav-button{
+    font-size: 1rem;
+    height: 5vh;
+  }
+  .heading{
+    padding-top: 2%;
+    font-size: 5vh;
+  }
+}
 
 
 

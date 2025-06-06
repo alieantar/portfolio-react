@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="heading-container" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 756.03 149.7">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <radialGradient id="radial-gradient" cx="478.1" cy="-10.13" fx="478.1" fy="-10.13" r="636.5" gradientTransform="translate(-33.83 84.91) scale(.86 .41)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0a55"/>
+      <stop offset=".21" stop-color="#102cbb"/>
+      <stop offset=".37" stop-color="#2d6eb7"/>
+      <stop offset=".49" stop-color="#2599cd"/>
+      <stop offset=".68" stop-color="#4775bc"/>
+      <stop offset=".84" stop-color="#fff"/>
+      <stop offset=".95" stop-color="#e6e3f3"/>
+    </radialGradient>
+    <filter id="drop-shadow-1" x="142.5" y="27.42" width="488" height="121" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".9"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <polygon points="571.56 126.06 607.61 109.43 607.11 51.24 570.56 35.54 188.51 35.54 151.95 51.24 151.45 109.43 187.5 126.06 571.56 126.06" fill="url(#radial-gradient)" filter="url(#drop-shadow-1)"/>
+  <line x1="125.24" y1="13.76" x2="198.33" y2="64.36" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <circle cx="117.65" cy="10.55" r="7.58" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="18.66" y1="10.55" x2="110.07" y2="10.55" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <path d="M640.44,10.32" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <path d="M731.84,10.32" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <polyline points="233.44 55.33 205.4 66.79 205.02 109.25" fill="none" opacity=".87" stroke="#e3f1ff" stroke-miterlimit="10"/>
+  <circle cx="11.08" cy="10.55" r="7.58" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="630.25" y1="15.27" x2="557.15" y2="65.87" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <circle cx="637.83" cy="12.06" r="7.58" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <line x1="736.82" y1="12.06" x2="645.41" y2="12.06" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+  <polyline points="518.91 117.24 546.95 107.08 547.33 69.42" fill="none" opacity=".87" stroke="#e3f1ff" stroke-miterlimit="10"/>
+  <circle cx="744.4" cy="12.06" r="7.58" fill="none" stroke="#06a2cc" stroke-miterlimit="10"/>
+</svg>

@@ -184,7 +184,7 @@
     max-height: 35vh;
   }
 }
-@media (min-width: 768px){
+@media (min-width: 768px) and (orientation: portrait){
   .category-carousel-nav img {
     width: 1.4rem;
     height: 2rem;
@@ -207,5 +207,33 @@
   }
   .project-description{
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (orientation: landscape){
+  .category-carousel-nav img {
+    width: 1.4rem;
+    height: 2rem;
+  }
+  .slide {
+    flex: 0 0 100%;
+    background-color: rgba(70, 130, 180, 0.2);
+    height: 35vh;
+    width: 18vw;
+  }
+  .project-title{
+    font-size: 1.7rem;
+  }
+  .carousel-nav img {
+    width: 2.5rem;
+    height: 3rem;
+  }
+  .project-category{
+    font-size: 1.6rem;
+  }
+  .project-description{
+    font-size: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
