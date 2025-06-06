@@ -92,7 +92,7 @@
   height: 40vh;
   width: 12vw;
   border-radius: 2%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .project-card{
@@ -244,5 +244,67 @@
   }
   .slide {
     width: 15vw;
+    height: 35vh;
+  }
+}
+/* Specific case - XP Pen drawing tablet and potentially other tablets.*/
+/* @media (min-width: 1280px) and (min-height: 600px)  {
+  .slide{
+    width: 12vw;
+    height: 40vh;
+  }
+  .project-category{
+    font-size: 1.4rem;
+  }
+  .project-title{
+    font-size: 1.2rem;
+  }
+  .project-description{
+    font-size: 0.8rem;
+  }
+  .project-card{
+    height: 20vh;
+  }
+} */
+
+@media (min-width: 1745px){
+  .project-category{
+    font-size: 1.8rem;
+  }
+  .project-title{
+    font-size: 2rem;
+  }
+  .project-description{
+    font-size: 1.2rem;
+  }
+  .slide{
+    width: 16vw;
+  }
+}
+
+@media (min-width: 2560px){
+  .project-category{
+    font-size: 2.4rem;
+  }
+  .project-title{
+    font-size: 2.6rem;
+  }
+  .project-description{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 3440px){
+  .slide{
+    width: 15vw;
+  }
+  .project-category{
+    font-size: 3.5rem;
+  }
+  .project-title{
+    font-size: 3.4rem
+  }
+  .project-description{
+    font-size: 2rem;
   }
 }

@@ -31,3 +31,23 @@
     font-size: 0.95rem;
   }
 }
+
+@media (min-width: 1745px){
+  .about-me-text{
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 2560px){
+  .about-me-text{
+    font-size: 1.7rem;
+  }
+}
+
+
+@media (min-width: 3440px){
+  .about-me-text{
+    font-size: 1.8rem;
+  }
+}
+

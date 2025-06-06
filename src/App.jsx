@@ -63,6 +63,8 @@ function App() {
     setselectedNavOption(item);
   };
 
+  console.log(window.innerWidth + " x " + window.innerHeight);
+
   return(
     <div className='container'>
       <div className='heading-container'>

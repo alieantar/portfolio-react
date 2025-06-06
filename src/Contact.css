@@ -42,3 +42,31 @@
     font-size: 1.5rem;
   }
 }
+
+@media (min-width: 2560px){
+  .contact-container h1{
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+  .contact-container p{
+    font-size: 2.2rem;
+  }
+  .contact-container h2{
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 3440px){
+  .contact-container h1{
+    font-size: 4rem;
+    padding-top: 1rem;
+  }
+  .contact-container p{
+    font-size: 3.2rem;
+  }
+  .contact-container h2{
+    text-align: center;
+    font-size: 3.5rem;
+  }
+}
