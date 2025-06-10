@@ -5,55 +5,57 @@
   display: none;
 }
 .container{
-  background-image: url("/assets/SVGs/mobile/general/main-container-mobile-general.svg");
-  background-position: center top;
-  background-size: contain;
-  background-repeat: no-repeat;
+  border: solid rgba(0, 125, 209, 0.8) 0.3vh;
+  border-radius: 3%;
   display: grid;
   gap: 5px;
   height: 100vh;
-  grid-template-rows: 0.25fr 0.5fr 1fr;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-template-rows: 0.2fr 0.5fr 1fr 0.1fr;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .heading-container{
+  border: solid rgba(0, 125, 209, 0.8) 0.2vh;
+  border-radius: 2%;
+  
+  width: 100%;
+  max-width: 70vw;
+
+  margin: 0 auto;
+  margin-top: 5%;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/SVGs/mobile/general/heading-container-mobile-general.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  
   grid-row-start: 1;
   grid-column: span 2;
-  margin-top: clamp(4%, 4vh, 8%);
-  min-height: clamp(3rem, 11vh, 5rem);
+
+  min-height: 0;
 }
 
 .heading{
-  font-size: clamp(0.5rem, 5vw, 5rem);
+  font-size: 1.6rem;
 }
 
 .nav-button{
   padding: 0;
   font-family: inherit;
   font-size: 3.5vw;
-  /* font-size: clamp(0.8rem, 1.2vw, 2rem); */
   color: inherit;
   border-radius: 2%;
-  /* background-color: transparent; */
-  /* background-image: url("/public/assets/SVGs/mobile/small/nav-button-small.svg"); */
-  background-color: rgba(70, 130, 180, .2);
-  /* background-repeat: no-repeat;
-  background-position: center center; */
   border: none;
   cursor: pointer;
   height: clamp(5vh, 6vh, 15vh);
   width: 100%;
+  background: linear-gradient(rgba(0, 56, 140, 0.5), rgba(0, 0, 0, 0.5));
+  outline: solid 1px rgba(0, 0, 0, 0.5);
 }
 
 .nav-buttons-container{
-  background-color: transparent;
+
   border: solid rgba(0, 125, 209, 0.8) 0.2vh;
   border-radius: 2%;
   
@@ -71,7 +73,7 @@
   grid-column: span 2;
   align-items: center;
   justify-content: center;
-
+  box-shadow: 0.2vw 0.2vw 2vw rgba(0, 0, 0, 0.5);
 }
 
 .content-container{
@@ -83,12 +85,123 @@
   width: 100%;
   margin: 0 auto;
   padding: 0.5rem 1rem;
-  max-height: 50vh;
+  max-height: 55vh;
   
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  box-shadow: 0.2vw 0.2vw 2vw rgba(0, 0, 0, 0.5);
 }
+
+.footer{
+  font-size: 0.7rem;
+  margin: 2% auto;
+  grid-column: span 2;
+}
+@media (min-width: 480px){
+  .nav-button{
+    font-size: 3.3vw;
+  }
+  .heading{
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 540px){
+  .container{
+   grid-template-rows: 0.3fr 0.5fr 1fr 0.1fr; 
+  }
+  .nav-button{
+    font-size: 3.1vw;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 600px){
+  .nav-button{
+    font-size: 2.9vw;
+  }
+}
+
+@media (min-width: 660px){
+  .nav-button{
+    font-size: 2.7vw;
+  } 
+}
+
+@media (min-width: 720px){
+  .nav-button{
+    font-size: 2.5vw;
+  } 
+}
+
+@media (min-width: 780px){
+  .nav-button{
+    font-size: 2.3vw;
+  } 
+}
+
+@media (min-width: 840px){
+  .nav-button{
+    font-size: 2.1vw;
+  } 
+}
+
+@media (min-width: 900px){
+  .nav-button{
+    font-size: 1.9vw;
+  } 
+}
+
+@media (min-width: 960px){
+  .nav-button{
+    font-size: 1.7vw;
+  } 
+}
+
+@media (min-width: 1020px){
+  .container{
+    grid-template-rows: 0.2fr 0.1fr 1fr 0.1fr;
+    gap: 10px;
+  }
+  .heading-container{
+    margin-top: 2%;
+  }
+  .nav-button{
+    font-size: 1.5vw;
+  }
+  .nav-buttons-container{
+    flex-direction: row;
+  }
+  .content-container{
+    max-height: 65vh;
+  }
+}
+
+/* @media (min-width: 768px) and (orientation: landscape){
+  .container{
+    
+    grid-template-rows: 0.4fr 0.1fr 1fr;
+  }
+  .heading-container{
+    background-image: url("/assets/SVGs/tablet/landscape/heading-container-tablet-landscape.svg");
+    margin-top: 2%
+  }
+  .nav-buttons-container{
+    flex-direction: row;
+  }
+  .nav-button{
+    font-size: 1rem;
+    height: 5vh;
+  }
+  .heading{
+    padding-top: 2%;
+    font-size: 5vh;
+  }
+} */
 /* 
 @media (min-width: 445px){
   .container{
@@ -97,31 +210,29 @@
 }
  */
 
-@media (min-width: 390px){
+/* @media (min-width: 390px){
   .nav-buttons-container{
     max-width: 80vw;
   }
   .content-container{
     max-width: 80vw;
   }
-}
+} */
 
-@media (min-height: 844px){
+/* @media (min-height: 844px){
   .content-container{
     max-height: 48vh;
   }
-}
+} */
 
-@media (min-height: 915px){
+/* @media (min-height: 915px){
   .content-container{
     max-height: 45vh;
   }
-}
+} */
 
-@media (min-width: 768px) and (orientation: portrait){
-  .container{
-    background-image: url("/assets/SVGs/tablet/portrait/main-container-tablet-portrait.svg");
-  }
+/* @media (min-width: 768px) and (orientation: portrait){
+
   .heading-container{
     background-image: url("/assets/SVGs/tablet/portrait/heading-container-tablet-portrait.svg");
     margin-top: 3vh;
@@ -140,11 +251,11 @@
     max-width: 80vw;
     height: clamp(46vh, 47vh, 49vh);
   }
-}
+} */
 
-@media (min-width: 768px) and (orientation: landscape){
+/* @media (min-width: 768px) and (orientation: landscape){
   .container{
-    background-image: url("/assets/SVGs/tablet/landscape/main-container-tablet-landscape.svg");
+    
     grid-template-rows: 0.4fr 0.1fr 1fr;
   }
   .heading-container{
@@ -162,11 +273,10 @@
     padding-top: 2%;
     font-size: 5vh;
   }
-}
+} */
 
-@media (min-width: 1280px)  {
+/* @media (min-width: 1280px)  {
   .container{
-    background-image: url("/assets/SVGs/desktop/small/main-container-desktop-small.svg");
     grid-template-rows: 0.3fr 0.1fr 1fr;
   }
   .heading-container{
@@ -181,7 +291,7 @@
     max-width: 70vw;
     max-height: 50vh;
   }
-}
+} */
 
 /* Specific case - XP Pen drawing tablet and potentially other tablets.*/
 /* @media (min-width: 1280px) and (min-height: 600px)  {
@@ -201,7 +311,7 @@
   }
 } */
 
-@media (min-width: 1745px){
+/* @media (min-width: 1745px){
   .container{
     grid-template-rows: 0.4fr 0.1fr 1fr;
   }
@@ -222,15 +332,15 @@
     padding-top: 1%;
     font-size: 4rem;  
   }
-}
+} */
 
-@media (min-width: 2560px){
+/* @media (min-width: 2560px){
   .nav-button{
     font-size: 1.7rem;
   }
-}
+} */
 
-@media (min-width: 3440px){
+/* @media (min-width: 3440px){
   .container{
     grid-template-rows: 0.4fr 0.1fr 1fr;
   }
@@ -251,7 +361,7 @@
     padding-top: 1%;
     font-size: 5rem;  
   }
-}
+} */
 
 
 

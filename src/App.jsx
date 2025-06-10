@@ -77,6 +77,9 @@ function App() {
       <div className='content-container'>
         {selectedNavOption === null ? contentToRender(-1) : contentToRender(selectedNavOption)}
       </div>
+      <div className='footer'>
+        Alie Antar ©
+      </div>
     </div>
   )
 }
