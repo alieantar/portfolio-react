@@ -2,7 +2,11 @@
   display: flex;
   flex-direction: column;
   overflow: auto;
-  height: 40vh;
+  height: 50vh;
+  background-color: rgba(0,0,0, 0.1);
+  border: solid rgba(0, 0, 0, 0.1) 0.1rem;
+  border-radius: 2%;
+  padding: 5%;
 }
 
 .job h1 {
@@ -16,79 +20,4 @@
 .job p{
   font-size: 0.6rem;
   white-space: pre-line;
-}
-
-@media (min-width: 768px) and (orientation: portrait){
-  .job h1 {
-    font-size: 1.5rem;
-  }
-
-  .job h2 {
-    font-size: 1.5rem
-  }
-
-  .job p{
-    font-size: 0.8rem;
-    white-space: pre-line;
-  }
-}
-
-@media (min-width: 768px) and (orientation: landscape){
-  .job h1 {
-    font-size: 1.3rem;
-  }
-
-  .job h2 {
-    font-size: 1.2rem
-  }
-
-  .job p{
-    font-size: 0.9rem;
-    white-space: pre-line;
-  }
-}
-
-@media (min-width: 1745px){
-  .job h1 {
-    font-size: 1.5rem;
-  }
-
-  .job h2 {
-    font-size: 1.4rem
-  }
-
-  .job p{
-    font-size: 1rem;
-    white-space: pre-line;
-  }
-}
-
-@media (min-width: 2560px){
-  .job h1 {
-    font-size: 2.5rem;
-  }
-
-  .job h2 {
-    font-size: 2.4rem
-  }
-
-  .job p{
-    font-size: 2rem;
-    white-space: pre-line;
-  }
-}
-
-@media (min-width: 3440px){
-  .job h1 {
-    font-size: 3rem;
-  }
-
-  .job h2 {
-    font-size: 2.8rem
-  }
-
-  .job p{
-    font-size: 2rem;
-    white-space: pre-line;
-  }
 }

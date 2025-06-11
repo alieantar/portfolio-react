@@ -81,7 +81,7 @@
 
 .carousel-track{
   display: flex;
-  width: 100%;
+  width: 65vw;
   height: 100%;
   transition: transform 0.5s ease;
 }
@@ -90,7 +90,7 @@
   flex: 0 0 100%;
   background-color: rgba(70, 130, 180, 0.2);
   height: 40vh;
-  width: 12vw;
+  /* width: 12vw; */
   border-radius: 2%;
   overflow: auto;
 }
@@ -115,11 +115,7 @@
   position: relative;
 } */
 
-.project-photo{
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 
 .carousel-nav img {
   width: 2rem;
@@ -155,7 +151,7 @@
 }
 
 .project-description{
-  font-size: 0.7rem;
+  font-size: clamp(0.7rem, 3.2vw, 1rem);
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -179,7 +175,7 @@
   }
 }
 
-@media (min-height: 915px){
+/* @media (min-height: 915px){
   .slide{
     max-height: 35vh;
   }
@@ -208,9 +204,9 @@
   .project-description{
     font-size: 1rem;
   }
-}
+} */
 
-@media (min-width: 768px) and (orientation: landscape){
+/* @media (min-width: 768px) and (orientation: landscape){
   .category-carousel-nav img {
     width: 1.4rem;
     height: 2rem;
@@ -236,9 +232,9 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-}
+} */
 
-@media (min-width: 1280px){
+/* @media (min-width: 1280px){
   .project-category{
     font-size: 1.6rem;
   }
@@ -246,7 +242,7 @@
     width: 15vw;
     height: 35vh;
   }
-}
+} */
 /* Specific case - XP Pen drawing tablet and potentially other tablets.*/
 /* @media (min-width: 1280px) and (min-height: 600px)  {
   .slide{
@@ -267,7 +263,7 @@
   }
 } */
 
-@media (min-width: 1745px){
+/* @media (min-width: 1745px){
   .project-category{
     font-size: 1.8rem;
   }
@@ -280,9 +276,9 @@
   .slide{
     width: 16vw;
   }
-}
+} */
 
-@media (min-width: 2560px){
+/* @media (min-width: 2560px){
   .project-category{
     font-size: 2.4rem;
   }
@@ -292,9 +288,9 @@
   .project-description{
     font-size: 1.8rem;
   }
-}
+} */
 
-@media (min-width: 3440px){
+/* @media (min-width: 3440px){
   .slide{
     width: 15vw;
   }
@@ -307,4 +303,4 @@
   .project-description{
     font-size: 2rem;
   }
-}
+} */

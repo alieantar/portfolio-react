@@ -1,24 +1,34 @@
 /* #root {
 
 } */
-.non-mobile{
-  display: none;
-}
+
 .container{
-  border: solid rgba(0, 125, 209, 0.8) 0.3vh;
-  border-radius: 3%;
+  /* border: solid rgba(0, 125, 209, 0.8) 0.3vh;
+  border-radius: 3%; */
+
+  background-color: rgba(0, 125, 209, 0.1);
+  border: solid rgba(0, 125, 209, 0.2) 0.1vh;;
+  border-radius: 2%;
+  padding: 1%;
   display: grid;
   gap: 5px;
   height: 100vh;
   margin-left: 5%;
   margin-right: 5%;
-  grid-template-rows: 0.2fr 0.5fr 1fr 0.1fr;
+  grid-template-rows: 0.1fr 0.5fr 1fr 0.1fr;
   grid-template-columns: repeat(2, 1fr);
+
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.5);
 }
 
 .heading-container{
-  border: solid rgba(0, 125, 209, 0.8) 0.2vh;
+  /* border: solid rgba(0, 125, 209, 0.8) 0.2vh;
+  border-radius: 2%; */
+    
+  background-color: rgba(0,0,0, 0.1);
+  border: solid rgba(0, 0, 0, 0.25) 0.1rem;
   border-radius: 2%;
+  padding: 1%;
   
   width: 100%;
   max-width: 70vw;
@@ -34,16 +44,21 @@
   grid-column: span 2;
 
   min-height: 0;
+  height: 8vh;
+
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.5);
 }
 
 .heading{
-  font-size: 1.6rem;
+  font-size: clamp(1.5rem, 6.9vw, 3.5rem);
 }
 
 .nav-button{
   padding: 0;
+
   font-family: inherit;
-  font-size: 3.5vw;
+  font-size: clamp(0.8203125rem, 3.8vw, 1.1rem);
+  
   color: inherit;
   border-radius: 2%;
   border: none;
@@ -52,12 +67,26 @@
   width: 100%;
   background: linear-gradient(rgba(0, 56, 140, 0.5), rgba(0, 0, 0, 0.5));
   outline: solid 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.nav-button:hover {
+  background: linear-gradient(rgb(65, 139, 252), rgba(0, 0, 0, 0.5));
+}
+
+.nav-button.nav-button:click {
+  background: linear-gradient(rgb(65, 139, 252), rgba(0, 0, 0, 0.5));
 }
 
 .nav-buttons-container{
 
-  border: solid rgba(0, 125, 209, 0.8) 0.2vh;
+  /* border: solid rgba(0, 125, 209, 0.8) 0.2vh;
+  border-radius: 2%; */
+
+  background-color: rgba(0,0,0, 0.1);
+  border: solid rgba(0, 0, 0, 0.25) 0.1rem;
   border-radius: 2%;
+  padding: 1%;
   
   max-width: 70vw;
   width: 100%;
@@ -73,25 +102,30 @@
   grid-column: span 2;
   align-items: center;
   justify-content: center;
-  box-shadow: 0.2vw 0.2vw 2vw rgba(0, 0, 0, 0.5);
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.5);
 }
 
 .content-container{
-  border: solid rgba(0, 125, 209, 0.8) 0.2vh;
-  border-radius: 2%;
+  /* border: solid rgba(0, 125, 209, 0.8) 0.2vh; */
+  /* border-radius: 2%; */
   grid-column: span 2;
+    
+  background-color: rgba(0,0,0, 0.1);
+  border: solid rgba(0, 0, 0, 0.25) 0.1rem;
+  border-radius: 2%;
+  padding: 1%;
 
   max-width: 70vw;
   width: 100%;
   margin: 0 auto;
   padding: 0.5rem 1rem;
-  max-height: 55vh;
+  height: 55vh;
   
   display: flex;
   justify-content: center;
   align-items: center;
   
-  box-shadow: 0.2vw 0.2vw 2vw rgba(0, 0, 0, 0.5);
+  box-shadow: 0vw 0vw 1vw rgba(0, 0, 0, 0.5);
 }
 
 .footer{
@@ -99,85 +133,80 @@
   margin: 2% auto;
   grid-column: span 2;
 }
-@media (min-width: 480px){
-  .nav-button{
-    font-size: 3.3vw;
-  }
-  .heading{
-    font-size: 1.6rem;
-  }
-}
 
-@media (min-width: 540px){
-  .container{
-   grid-template-rows: 0.3fr 0.5fr 1fr 0.1fr; 
-  }
-  .nav-button{
-    font-size: 3.1vw;
-  }
-  .heading{
-    font-size: 2rem;
-  }
-}
 
-@media (min-width: 600px){
-  .nav-button{
-    font-size: 2.9vw;
-  }
-}
 
 @media (min-width: 660px){
-  .nav-button{
+  /* .nav-button{
     font-size: 2.7vw;
-  } 
+  } */
+  .heading-container{
+    margin-top: 6%;
+  }
 }
 
 @media (min-width: 720px){
-  .nav-button{
+  /* .nav-button{
     font-size: 2.5vw;
-  } 
+  }  */
 }
 
 @media (min-width: 780px){
-  .nav-button{
+  /* .nav-button{
     font-size: 2.3vw;
-  } 
+  }  */
 }
 
 @media (min-width: 840px){
-  .nav-button{
+  /* .nav-button{
     font-size: 2.1vw;
-  } 
+  }  */
 }
 
 @media (min-width: 900px){
-  .nav-button{
+  /* .nav-button{
     font-size: 1.9vw;
-  } 
+  } */
 }
 
 @media (min-width: 960px){
-  .nav-button{
+  /* .nav-button{
     font-size: 1.7vw;
-  } 
+  } */
+  .heading-container{
+    margin-top: 4%;
+  }
 }
 
 @media (min-width: 1020px){
   .container{
-    grid-template-rows: 0.2fr 0.1fr 1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 0.1fr;
     gap: 10px;
   }
   .heading-container{
-    margin-top: 2%;
+    height: 12vh;
   }
-  .nav-button{
+
+  /* .nav-button{
     font-size: 1.5vw;
-  }
+  } */
   .nav-buttons-container{
     flex-direction: row;
   }
   .content-container{
-    max-height: 65vh;
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1080px){
+  .heading-container{
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 1140px){
+  .heading-container{
+    margin-top: 3%;
   }
 }
 

@@ -1,15 +1,21 @@
 .about-me-container{
-  height: 40vh;
+  height: 50vh;
   overflow: auto;
+  background-color: rgba(0,0,0, 0.1);
+  border: solid rgba(0, 0, 0, 0.1) 0.1rem;
+  border-radius: 2%;
+  padding: 1%;
 }
 
 .about-me-text{
-  font-size: 0.7rem;
+  font-size: clamp(0.5rem, 3vw, 1rem);
   text-align: center;
+  
 }
 
 .generic-text{
-  font-size: 1rem;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+  text-align: center;
   padding-top: 15vh;
 }
 
